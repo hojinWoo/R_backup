@@ -1,0 +1,976 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+	<meta name="decorator" content="ajax" >
+	<link rel="stylesheet" type="text/css" href="http://www.kma.go.kr/share/css/table.css" />
+</head>
+<body>
+	<!-- content :Start -->
+	
+	
+	
+		
+		
+		<table class="table_midterm" summary="미세먼지 농도자료 자료표입니다.">
+			<colgroup>
+			<col width="14%" />
+			<col width="*" />
+			</colgroup>
+			<thead>
+			<tr>
+				<th colspan="25" class="top_line al">[ PM10 : 1시간 평균값 ] 서울(108) 2017년 07월 06일</th>
+			</tr>
+			<tr>
+				<th scope="col">지점</th>
+				<th scope="col">01시</th>
+				<th scope="col">02시</th>
+				<th scope="col">03시</th>
+				<th scope="col">04시</th>
+				<th scope="col">05시</th>
+				<th scope="col">06시</th>
+				<th scope="col">07시</th>
+				<th scope="col">08시</th>
+				<th scope="col">09시</th>
+				<th scope="col">10시</th>
+				<th scope="col">11시</th>
+				<th scope="col">12시</th>
+				<th scope="col">13시</th>
+				<th scope="col">14시</th>
+				<th scope="col">15시</th>
+				<th scope="col">16시</th>
+				<th scope="col">17시</th>
+				<th scope="col">18시</th>
+				<th scope="col">19시</th>
+				<th scope="col">20시</th>
+				<th scope="col">21시</th>
+				<th scope="col">22시</th>
+				<th scope="col">23시</th>
+				<th scope="col">24시</th>
+			</tr>
+			</thead>
+			<tbody>
+			
+				<tr>
+					<th scope="row">2017.07.06.</th>
+			<td style='padding:2px'>45</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>48</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.07.05.</th>
+			<td style='padding:2px'>18</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>61</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>48</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>73</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>37</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.07.04.</th>
+			<td style='padding:2px'>10</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>14</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.07.03.</th>
+			<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td style='background:#dddddd;color:#000000;padding:2px'>15</td>
+<td style='padding:2px'>14</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>4</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>13</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>18</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>12</td>
+<td style='padding:2px'>15</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.07.02.</th>
+			<td style='padding:2px'>27</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>7</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>23</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.07.01.</th>
+			<td style='padding:2px'>40</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>63</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>5</td>
+<td style='padding:2px'>8</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>21</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.30.</th>
+			<td style='padding:2px'>63</td>
+<td style='padding:2px'>61</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>37</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.29.</th>
+			<td style='padding:2px'>6</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>65</td>
+<td style='padding:2px'>62</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>51</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.28.</th>
+			<td style='padding:2px'>50</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>42</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td style='background:#dddddd;color:#000000;padding:2px'>3</td>
+<td style='padding:2px'>2</td>
+<td style='padding:2px'>7</td>
+<td style='padding:2px'>6</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.27.</th>
+			<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td style='padding:2px'>10</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>11</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>12</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>31</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.26.</th>
+			<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td style='background:#dddddd;color:#000000;padding:2px'>27</td>
+<td >&nbsp;</td>
+<td style='background:#dddddd;color:#000000;padding:2px'>7</td>
+<td style='padding:2px'>2</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>8</td>
+<td style='padding:2px'>12</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>14</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>16</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.25.</th>
+			<td style='padding:2px'>26</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>21</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+<td >&nbsp;</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.24.</th>
+			<td style='padding:2px'>24</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>29</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.23.</th>
+			<td style='padding:2px'>32</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>48</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>67</td>
+<td style='padding:2px'>69</td>
+<td style='padding:2px'>57</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>33</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.22.</th>
+			<td style='padding:2px'>40</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>26</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.21.</th>
+			<td style='padding:2px'>43</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>61</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>59</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>71</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>32</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.20.</th>
+			<td style='padding:2px'>37</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>48</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>65</td>
+<td style='padding:2px'>64</td>
+<td style='padding:2px'>57</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>41</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.19.</th>
+			<td style='padding:2px'>47</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>48</td>
+<td style='padding:2px'>76</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>43</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.18.</th>
+			<td style='padding:2px'>41</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>42</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.17.</th>
+			<td style='padding:2px'>55</td>
+<td style='padding:2px'>62</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>65</td>
+<td style='padding:2px'>57</td>
+<td style='padding:2px'>64</td>
+<td style='padding:2px'>67</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>31</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.16.</th>
+			<td style='padding:2px'>60</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>67</td>
+<td style='padding:2px'>64</td>
+<td style='padding:2px'>69</td>
+<td style='padding:2px'>94</td>
+<td style='padding:2px'>100</td>
+<td style='padding:2px'>88</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>45</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.15.</th>
+			<td style='padding:2px'>42</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>42</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>57</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>63</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>48</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.14.</th>
+			<td style='padding:2px'>37</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>45</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.13.</th>
+			<td style='padding:2px'>29</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>12</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>37</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>30</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.12.</th>
+			<td style='padding:2px'>22</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>18</td>
+<td style='padding:2px'>18</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>39</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>30</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.11.</th>
+			<td style='padding:2px'>36</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>30</td>
+<td style='padding:2px'>31</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>23</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.10.</th>
+			<td style='padding:2px'>70</td>
+<td style='padding:2px'>89</td>
+<td style='padding:2px'>73</td>
+<td style='padding:2px'>65</td>
+<td style='padding:2px'>69</td>
+<td style='padding:2px'>62</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>38</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>35</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>24</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.09.</th>
+			<td style='padding:2px'>42</td>
+<td style='padding:2px'>62</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>45</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>57</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>52</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>55</td>
+<td style='padding:2px'>63</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>54</td>
+<td style='padding:2px'>56</td>
+<td style='padding:2px'>49</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>53</td>
+<td style='padding:2px'>61</td>
+<td style='padding:2px'>51</td>
+<td style='padding:2px'>50</td>
+<td style='padding:2px'>58</td>
+<td style='padding:2px'>63</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.08.</th>
+			<td style='padding:2px'>6</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>17</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>36</td>
+<td style='padding:2px'>44</td>
+<td style='padding:2px'>47</td>
+<td style='padding:2px'>43</td>
+<td style='padding:2px'>60</td>
+<td style='padding:2px'>66</td>
+<td style='padding:2px'>62</td>
+<td style='padding:2px'>41</td>
+<td style='padding:2px'>40</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>46</td>
+<td style='padding:2px'>33</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>34</td>
+<td style='padding:2px'>32</td>
+<td style='padding:2px'>35</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.07.</th>
+			<td >&nbsp;</td>
+<td style='padding:2px'>7</td>
+<td style='padding:2px'>5</td>
+<td style='padding:2px'>8</td>
+<td style='padding:2px'>6</td>
+<td style='padding:2px'>7</td>
+<td style='padding:2px'>14</td>
+<td style='padding:2px'>10</td>
+<td style='padding:2px'>10</td>
+<td style='padding:2px'>3</td>
+<td style='padding:2px'>8</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>29</td>
+<td style='padding:2px'>11</td>
+<td style='padding:2px'>9</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>26</td>
+<td style='padding:2px'>20</td>
+<td style='padding:2px'>19</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>18</td>
+<td style='padding:2px'>11</td>
+
+				</tr>
+			
+				<tr>
+					<th scope="row">2017.06.06.</th>
+			<td style='padding:2px'>14</td>
+<td style='padding:2px'>18</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>16</td>
+<td style='padding:2px'>21</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>23</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>28</td>
+<td style='padding:2px'>24</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>27</td>
+<td style='padding:2px'>25</td>
+<td style='padding:2px'>22</td>
+<td style='padding:2px'>15</td>
+<td style='padding:2px'>11</td>
+<td style='padding:2px'>11</td>
+<td style='padding:2px'>7</td>
+<td style='padding:2px'>9</td>
+<td style='padding:2px'>9</td>
+<td style='padding:2px'>2</td>
+
+				</tr>
+			
+			</tbody>
+		</table>
+		<p class="MT20"/>
+	
+
+	<!-- content :End -->
+</body>
+</html>
+
+

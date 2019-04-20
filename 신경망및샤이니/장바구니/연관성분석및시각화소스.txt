@@ -1,0 +1,184 @@
+# JAVA SE 설치되어 있어야 함!
+
+install.packages("rJava")
+library(rJava)
+
+install.packages("KoNLP")
+library(KoNLP)
+
+install.packages("wordcloud")
+library(wordcloud)
+
+install.packages("RColorBrewer")
+library(RColorBrewer)
+
+
+# setwd("C:/r_source")
+
+useSejongDic()
+
+mergeUserDic(data.frame('고용률', 'ncn'))
+mergeUserDic(data.frame('예산안', 'ncn'))
+mergeUserDic(data.frame('창조경제', 'ncn'))
+
+
+f <- file("2015park.txt", encoding="UTF-8")
+
+## fl 변수에 redaLines 함수 사용하여
+## park 변수 내용을 라인별로 읽어 리스트로 변환
+
+fl <- readLines(f)
+close(f) ## 스트림 닫기
+
+head(fl, 5)
+tail(fl, 5)
+
+pword <- sapply(fl, extractNoun, USE.NAMES=F)
+pword
+
+## text 변수에 unlist 함수를 사용하여
+## 리스트 형태의 pword 변수 내용을 벡터로 변환하여 저장
+
+text <- unlist(pword)
+text
+head(text, 20)
+
+## (cbin01 <- data.frame(nchar(text), nchar(text)>=2))
+## nchar(text) 각 문자의 개수 추출
+
+text2 <- Filter(function(x) {nchar(x) >= 2}, text)
+head(text2, 20)
+
+
+
+text3 <- Filter(function(x){nchar(x) == 3}, text)
+head(text3, 20)
+
+
+text4 <- Filter(function(x){nchar(x) >= 2 & nchar(x) <= 4}, text)
+head(text4, 20)
+
+text2 <- gsub("드","",text2)
+text2 <- gsub("대","",text2)
+text2 <- gsub("저","",text2)
+text2 <- gsub("것","",text2)
+text2 <- gsub("한","",text2)
+
+text2 <- gsub("\\n","",text2)
+text2 <- gsub("\\d+","",text2)
+text2 <- gsub("\\.","",text2)
+
+head(text2, 20)
+
+## 벡터형식으로 변환 후 저장
+write(unlist(text2), 'mytext.txt')
+## 테이블 형태로 myword 변수에 입력
+myword <- read.table('mytext.txt')
+nrow(myword)
+
+
+wordcount <- table(myword)
+head(sort(wordcount, decreasing = T),20)
+
+
+##  brewer.pal(n, name)
+## n : Number of different colors in the palette,
+## minimum 3, maximum depending on palette
+## name  : A palette name from the lists below
+## ?brewer.pal 참조
+
+palete <- brewer.pal(9, "Set1")
+
+wordcloud(names(wordcount), freq=wordcount,
+          scale=c(5,1), rot.per=0.5, min.freq=7,
+          radom.order=F, random.color=T, colors=palete)
+
+a <- head(sort(wordcount, decreasing = T), 20)
+pie(a, col=rainbow(10), radius = 1)
+
+pct <- round(a/sum(a)*100,1)
+pct
+
+names(a)
+lab <- paste(names(a), "\n", pct, "%")
+pie(a, main="2015년 박근혜 대통령 연설문", col=rainbow(10), cex=0.8, labels=lab)
+
+par(new=T)
+pie(a, radius = 0.6, col="white", labels=NA, border=NA)
+
+
+#################
+## 연관어 분석 ##
+#################
+
+# install.packages(c("KoNLP", "arules", "igraph", "combinat"))
+
+install.packages("KoNLP")
+install.packages("arules")
+install.packages("igraph")
+install.packages("combinat")
+install.packages("DBI")
+# install.packages("dbConnect")
+
+
+library(KoNLP)
+library(arules)
+library(igraph)
+library(combinat)
+library(assertthat)
+library(DBI)
+# library(dbConnect)
+
+
+
+rule <- file('2015park.txt', encoding = "UTF-8")
+rules <- readLines(rule)
+close(rule)
+
+head(rules, 10)
+
+(tran <- Map(extractNoun, rules))
+tran1 <- unique(tran)
+tran <- sapply(tran, unique)
+tran <- sapply(tran, function(x) {Filter(function(y){nchar(y)<=4 && nchar(y) > 1 && is.hangul(y)}, x)})
+tran <- Filter(function(x){length(x) >= 2}, tran)
+tran
+
+names(tran) <- paste("Tr",1:length(tran), seq="")
+names(tran)
+wordtran <- as(tran, "transactions")
+wordtran
+
+wordtab <- crossTable(wordtran)
+wordtab
+
+## apriori 연관분석
+ares <- apriori(wordtran, parameter=list(supp=0.1, conf=0.2))
+
+## 연관분석 결과 확인
+inspect(ares)
+
+
+rules <- labels(ares, ruleSep=" ")
+rules <- sapply(rules, strsplit, " ", USE.NAMES = F)
+
+rulemat <- do.call("rbind", rules)
+
+## 시각화
+
+ruleg <- graph.edgelist(rulemat[-c(1:6),],directed = F)
+plot.igraph(ruleg,
+            vertex.label=V(ruleg)$name,
+            vertex.label.cex=1,
+            vertex.size=30,
+            layout=layout.fruchterman.reingold.grid)
+
+
+###########################
+## 단어 근접 중심성 파악 ##
+###########################
+
+closen <- closeness(ruleg)
+plot(closen, col="red", xaxt="n", lty="solid", type="b", xlab="단어", ylab="closeness")
+points(closen, pch=16, col="navy")
+axis(1, seq(1, length(closen)), V(ruleg)$name, cex=5)
